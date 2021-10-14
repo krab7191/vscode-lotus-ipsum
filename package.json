@@ -1,16 +1,17 @@
 {
-  "name": "lotus",
+	"name": "lotus",
 	"displayName": "lotus-ipsum",
 	"description": "A MTG themed lorem ipsum generator",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.61.0"
 	},
+	"publisher": "KarstenRabe",
 	"categories": [
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:lotus"
+		"onCommand:lotus"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
